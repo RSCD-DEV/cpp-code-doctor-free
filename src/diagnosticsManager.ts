@@ -24,7 +24,7 @@ export function updateDiagnostics(
             `${messagePrefix}: ${name}`,
             severity
         );
-        diagnostic.source = 'C++ Toolkit';
+        diagnostic.source = 'C++ Code Doctor';
         diagnostics.push(diagnostic);
     }
 

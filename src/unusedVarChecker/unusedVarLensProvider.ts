@@ -29,7 +29,7 @@ export class UnusedVarLensProvider implements vscode.CodeLensProvider {
             const line = finding.range.start.line;
             const lens = new vscode.CodeLens(finding.range, {
                 title: `Delete unused variable: ${finding.name}`,
-                command: 'cpp-toolkit.deleteUnusedVar',
+                command: 'cpp-code-doctor.deleteUnusedVar',
                 arguments: [document.uri, line]
             });
             codeLenses.push(lens);

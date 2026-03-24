@@ -18,7 +18,7 @@ export class UnusedIncludeLensProvider implements vscode.CodeLensProvider {
             const line = headerRange.start.line;
             const lens = new vscode.CodeLens(headerRange, {
                 title: `Delete unused include: ${headerName}`,
-                command: 'cpp-toolkit.deleteUnusedInclude',
+                command: 'cpp-code-doctor.deleteUnusedInclude',
                 arguments: [document.uri, line]
             });
             codeLenses.push(lens);

@@ -1,7 +1,7 @@
 {
-  "name": "cpp-toolkit",
-  "displayName": "Cpp Toolkit",
-  "description": "This extension contains several tools to support and improve your code. It will show you unused variable, unecessary includes and much more.",
+  "name": "cpp-code-doctor",
+  "displayName": "C++ Code Doctor",
+  "description": "This extension contains several tools to support and improve your code. It will show you unused variable, unnecessary includes and much more.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.103.0"
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/rscd-dev/cpp-toolkit/cpp-toolkit-free"
+    "url": "https://gitlab.com/rscd-dev/cpp-code-doctor/cpp-code-doctor-free"
   },
-  "icon": "images/cpp_toolkit_icon.png",
+  "icon": "images/cpp_code_doctor_icon.png",
   "categories": [
     "Linters",
     "Other"

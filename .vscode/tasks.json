@@ -48,7 +48,7 @@
 		{
 			"label": "Install Locally",
 			"type": "shell",
-			"command": "code --install-extension cpp-toolkit-0.0.1.vsix",
+			"command": "code --install-extension cpp-code-doctor-0.0.1.vsix",
 			"group": "none",
 			"problemMatcher": []
 		},

@@ -1,6 +1,6 @@
-# C++ Toolkit
+# C++ Code Doctor
 
-This is the README for the **C++ Toolkit** extension.
+This is the README for the **C++ Code Doctor** extension.
 It helps you improve C++ code quality by detecting unused variables and unused includes.
 The goal is to keep your projects clean, efficient, and easier to maintain.
 
@@ -15,11 +15,11 @@ The goal is to keep your projects clean, efficient, and easier to maintain.
 
 ## Unused Variable Detection
 
-![Unused Variable Detection](https://gitlab.com/rscd-dev/cpp-toolkit/cpp-toolkit-free/-/raw/main/images/UnusedVarDemo.gif)
+![Unused Variable Detection](https://gitlab.com/rscd-dev/cpp-code-doctor/cpp-code-doctor-free/-/raw/main/images/UnusedVarDemo.gif)
 
 ## Unused Include Detection
 
-![Unused Include Detection](https://gitlab.com/rscd-dev/cpp-toolkit/cpp-toolkit-free/-/raw/main/images/UnusedIncludeDemo.gif)
+![Unused Include Detection](https://gitlab.com/rscd-dev/cpp-code-doctor/cpp-code-doctor-free/-/raw/main/images/UnusedIncludeDemo.gif)
 
 ---
 
@@ -41,7 +41,7 @@ This extension currently contributes no custom settings.
 - Due to the nature of the check for unused variables (RegEx based) there might be some edge cases which either give a false positive or false negative.
 - Some header files might not be detected when they have multiple dots in their file ending. Thus, they will be marked as unused (as they are viewed as non existant)
 
-If you find other issues, please open a [GitLab issue](https://gitlab.com/rscd-dev/cpp-toolkit/cpp-toolkit-free/-/issues).
+If you find other issues, please open a [GitLab issue](https://gitlab.com/rscd-dev/cpp-code-doctor/cpp-code-doctor-free/-/issues).
 
 ---
 
