@@ -42,7 +42,7 @@ export class UnusedVarLensProvider implements vscode.CodeLensProvider {
             document,
             findingsSet,
             UnusedVarLensProvider.diagnosticsMessage,
-            vscode.DiagnosticSeverity.Error);
+            vscode.DiagnosticSeverity.Warning);
 
         return codeLenses;
     }
