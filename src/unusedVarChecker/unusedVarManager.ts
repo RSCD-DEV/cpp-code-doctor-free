@@ -7,7 +7,7 @@ export function registerUnusedVarChecker(context: vscode.ExtensionContext): vsco
 
     const deleteUnusedVarDisposable = vscode.commands.registerCommand('cpp-code-doctor.deleteUnusedVar', (uri: vscode.Uri, line: number) => {
         const editor = vscode.window.activeTextEditor;
-        if (!editor || editor.document.uri.toString() !== uri.toString()) {
+        if (!editor || editor.document.uri.fsPath !== uri.fsPath) {
             vscode.window.showErrorMessage('No active editor or wrong file.');
             return;
         }

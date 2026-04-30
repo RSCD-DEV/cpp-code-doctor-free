@@ -16,7 +16,7 @@ export function registerUnusedIncludeChecker(context: vscode.ExtensionContext): 
 
     const deleteUnusedVarDisposable = vscode.commands.registerCommand('cpp-code-doctor.deleteUnusedInclude', (uri: vscode.Uri, line: number) => {
         const editor = vscode.window.activeTextEditor;
-        if (!editor || editor.document.uri.toString() !== uri.toString()) {
+        if (!editor || editor.document.uri.fsPath !== uri.fsPath) {
             vscode.window.showErrorMessage('No active editor or wrong file.');
             return;
         }
