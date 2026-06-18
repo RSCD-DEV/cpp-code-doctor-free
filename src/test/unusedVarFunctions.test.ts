@@ -1,7 +1,8 @@
 import * as assert from 'assert';
 import * as vscode from 'vscode';
-import { findPossibleDeclarations, findUnusedDeclarations, Declaration } from '../src/unusedVarChecker/unusedVarFunctions';
-import { findRangesToOmit } from '../src/commonFunctions';
+import { findPossibleDeclarations, findUnusedDeclarations, Declaration } from '../unusedVarChecker/unusedVarFunctions';
+import { findRangesToOmit } from '../commonFunctions';
+
 
 async function createDocFromString(code: string): Promise<vscode.TextDocument> {
     const doc = await vscode.workspace.openTextDocument({
